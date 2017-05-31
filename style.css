@@ -1,0 +1,72 @@
+
+#body{
+  background-color: #f8f8ff;
+}
+
+header {
+  /*margin: 15px;*/
+  color: white;
+  text-align: center;
+  background-image: url(../img/hero.jpg);
+  height: 500px;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.left {
+  height: 100%;
+  margin: 15px;
+}
+
+.right {
+  background-color: #caccce;
+  height: 100%;
+  margin: 15px;
+}
+
+aside {
+  height: 100%;
+}
+/*.border {
+  border-right: 2px solid black;
+  height: 100%
+}*/
+
+
+img {
+  width: 100%;
+  height: auto;
+  /*min-height: 200px;*/
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Playfair Display SC', serif;
+
+}
+
+p {
+  font-family: 'Fauna One', serif;
+}
+
+@media only screen and (min-width:1170px) {
+  .border {
+    border-right: 2px solid black;
+    /*height: 100%*/
+    padding: 40px;
+  }
+
+}
+
+@media only screen and (max-width:1024px) {
+  header{
+  height: 300px;
+}
+
+}
